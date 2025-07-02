@@ -1,13 +1,15 @@
-// app/layout.tsx
 import './globals.css';
-import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Philosophy Forum',
-  description: 'A place for meaningful discussion',
+  description: 'A place to discuss philosophy',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
