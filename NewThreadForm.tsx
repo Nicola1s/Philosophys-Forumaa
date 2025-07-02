@@ -1,0 +1,1 @@
+export default function NewThreadForm() { return null; }
